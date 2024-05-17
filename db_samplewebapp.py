@@ -14,7 +14,7 @@ with head_page[1]:
 with st.expander(label = 'NAVIGATION'):
             options = option_menu(
                 menu_title = 'MENU',
-                options = ['MG Dashboard', 'The Loop Dashboard', 'Muji Dashboard'],
+                options = ['ACB Dashboard', 'MG Dashboard', 'The Loop Dashboard', 'Muji Dashboard'],
                 icons = ['robot','book','wrench'],
                 menu_icon = 'window-dock',
                 orientation = 'horizontal',
@@ -24,8 +24,13 @@ with st.expander(label = 'NAVIGATION'):
                                 'font-family': "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"},
                     "nav-link-selected": {"background-color": "green"}
                 })
-                
-if options == 'MG Dashboard':
+
+if options == 'ACB Dashboard':
+    st.markdown(
+        '<iframe title="Bank_Dashboard_V2" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjg5YzdhZjUtZjc4OC00NzhjLWI0MjgtZTYzNDIyZjU3NWRjIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
+        unsafe_allow_html = True
+    )        
+elif options == 'MG Dashboard':
     st.markdown(
         '<iframe title="mg_db2" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOTFjMGVhYzUtZWNhYi00NzVlLTljMTctMzQxYWQwY2FmNDRjIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
         unsafe_allow_html = True

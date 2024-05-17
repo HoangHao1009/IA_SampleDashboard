@@ -27,7 +27,7 @@ with st.expander(label = 'NAVIGATION'):
 
 if options == 'ACB Dashboard':
     st.markdown(
-        '<iframe title="Bank_Dashboard_V2" width="1200" height="747" src="https://app.powerbi.com/view?r=eyJrIjoiZjg5YzdhZjUtZjc4OC00NzhjLWI0MjgtZTYzNDIyZjU3NWRjIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
+        '<iframe title="Bank_Dashboard_V2" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjg5YzdhZjUtZjc4OC00NzhjLWI0MjgtZTYzNDIyZjU3NWRjIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
         unsafe_allow_html = True
     )        
 elif options == 'MG Dashboard':

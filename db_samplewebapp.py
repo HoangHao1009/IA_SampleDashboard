@@ -52,6 +52,6 @@ elif options == 'MMV Progress':
     )
 elif options == 'MVV Main Dashboard':
     st.markdown(
-        '<iframe title="MMV_Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=a7352aab-ad0e-4368-af2f-ed34797e1df0&autoAuth=true&ctid=3c935c0c-6f29-4f10-b2b1-11a30bff66ec" frameborder="0" allowFullScreen="true"></iframe>',
+        '<iframe title="MMV_Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNmE2ZDVhMjItZjAyNi00YzYwLTgxYjEtYWZhYzU1ZjgyZTBkIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
         unsafe_allow_html = True
     )

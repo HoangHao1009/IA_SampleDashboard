@@ -8,7 +8,7 @@ st.set_page_config(
 
 head_page = st.columns([0.3, 0.7])
 with head_page[0]:
-    st.image('https://insightasia.com/wp-content/uploads/2019/05/logo.png')
+    st.image('https://insightasia.com/wp-content/uploads/2024/06/insightasia-logo-edited.png')
 with head_page[1]:
     st.header(':green[DASHBOARD] :orange[SAMPLE]')
 with st.expander(label = 'NAVIGATION'):

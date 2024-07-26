@@ -14,7 +14,7 @@ with head_page[1]:
 with st.expander(label = 'NAVIGATION'):
             options = option_menu(
                 menu_title = 'MENU',
-                options = ['MMV Progress','ACB Dashboard', 'MG Dashboard', 'The Loop Dashboard', 'Muji Dashboard'],
+                options = ['MVV Main Dashboard', 'MMV Progress','ACB Dashboard', 'MG Dashboard', 'The Loop Dashboard', 'Muji Dashboard'],
                 icons = ['robot','book','wrench'],
                 menu_icon = 'window-dock',
                 orientation = 'horizontal',
@@ -48,5 +48,10 @@ elif options == 'Muji Dashboard':
 elif options == 'MMV Progress':
     st.markdown(
         '<iframe title="MMV_FW_UpdateGGDrive" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNjBlZjBmOTQtYmRlZS00ZTI4LWIyOWItMThhYzE0ZWRjMTkzIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
+        unsafe_allow_html = True
+    )
+elif options == 'MVV Main Dashboard':
+    st.markdown(
+        '<iframe title="MMV_Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=a7352aab-ad0e-4368-af2f-ed34797e1df0&autoAuth=true&ctid=3c935c0c-6f29-4f10-b2b1-11a30bff66ec" frameborder="0" allowFullScreen="true"></iframe>',
         unsafe_allow_html = True
     )

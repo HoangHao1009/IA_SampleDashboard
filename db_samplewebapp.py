@@ -14,7 +14,7 @@ with head_page[1]:
 with st.expander(label = 'NAVIGATION'):
             options = option_menu(
                 menu_title = 'MENU',
-                options = ['MVV Main Dashboard', 'MMV Progress','ACB Dashboard', 'MG Dashboard', 'The Loop Dashboard', 'Muji Dashboard'],
+                options = ['MVV Main Dashboard ver 2', 'MVV Main Dashboard', 'MMV Progress','ACB Dashboard', 'MG Dashboard', 'The Loop Dashboard', 'Muji Dashboard'],
                 icons = ['robot','book','wrench'],
                 menu_icon = 'window-dock',
                 orientation = 'horizontal',

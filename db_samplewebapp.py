@@ -55,3 +55,8 @@ elif options == 'MVV Main Dashboard':
         '<iframe title="MMV_Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNmE2ZDVhMjItZjAyNi00YzYwLTgxYjEtYWZhYzU1ZjgyZTBkIiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
         unsafe_allow_html = True
     )
+elif options == 'MVV Main Dashboard ver 2':
+    st.markdown(
+        '<iframe title="MMV_Dashboard_2" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzU1Njg2MDEtNWExMy00ZGNiLTljNzItZTdhZTFhY2RhN2M0IiwidCI6IjNjOTM1YzBjLTZmMjktNGYxMC1iMmIxLTExYTMwYmZmNjZlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>',
+        unsafe_allow_html = True
+    )
